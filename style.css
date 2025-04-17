@@ -1,0 +1,49 @@
+/* 1. Body styling (tag selector) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* 2. Class selector */
+  .title {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #7f8c8d;
+    font-style: italic;
+  }
+  
+  /* 3. ID selector */
+  #main-header {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-bottom: 2px solid #bdc3c7;
+  }
+  
+  /* 4. Image styling */
+  .featured-image {
+    display: block;
+    margin: 30px auto;
+    border: 5px solid #3498db;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* 5. Footer styling using an ID */
+  #footer-text {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    font-size: 0.9em;
+  }
+  
